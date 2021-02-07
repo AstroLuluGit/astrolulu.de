@@ -3,7 +3,6 @@ body.onload = restoreTheme;
 
 let currentTheme = 'Light';
 
-
 function darkTheme() {
     document.documentElement.setAttribute('data-theme', 'dark');
 
