@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/design.css">
+        <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <div id="navBar">
+            <div id="pageList">
+                <ul>
+                    <a onclick="changeTheme()"><i class="far fa-lightbulb"></i></a>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Online School</a></li>
+                    <li><a href="#">Todo List</a></li>
+                    <li><a href="#">Snake</a></li>
+                    <li><a href="#">Expense Calculator</a></li>
+                    <li><a href="#">EDDL Notes</a></li>
+                </ul>
+            </div>
+            <div id="socialMediaList">
+                <ul>
+                    <li><a target="_blank" href="http://discord.gg/nkPDJHHFtK"><i class="fab fa-discord"></i></a></li>
+                    <li><a target="_blank" href="https://github.com/AstroLuluGit/"><i class="fab fa-github"></i></a></li>
+                    <li><a target="_blank" href="https://instagram.com/guessitslouis._/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCG4lQMAUnYjceas9tzahO-w"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="pageContent">
+            <div id="aboutMe">
+                <div id="nameAndPic">
+                    <img src="./assets/images/profile.jpg" alt="My beautiful Face">
+                    <p>Louis Trinczek</p>
+                    <p id="nick">@Astro</p>
+                </div>
+                <div id="intro">
+                    <h1>
+                        <center>
+                        Hello, I'm Louis, 15 years old and live in Germany. <br> In my free time I spend a lot of time coding.
+                        </center> 
+                    </h1>
+                </div>                
+            </div>
+
+            <div id="gitProjects">
+                <h1><a href="#">My Projects</a></h1>
+            </div>
+        </div>
+        <script src="./assets/js/gitProjectsFetcher.js"></script>
+        <script src="./assets/js/darkModeToggler.js"></script>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'dosisextralight';
+    src: url(../fonts/dosis-variablefont_wght-webfont.woff),
+         url(../fonts/dosis-variablefont_wght-webfont.woff2);
+    font-weight: normal;
+    font-style: normal;        
+}
+:root {
+    --primary-color: #302AE6;
+    --light-primary-color: #536390;
+    --font-color: #424242;
+    --bg-color: rgb(180, 195, 197);
+    --heading-color: #292922;
+    --accent-color: #FF5722;
+    --header-color: #3B8DA9
+}
+[data-theme="dark"] {
+    --dark-primary-color: #616161;
+    --light-primary-color: #707070;
+    --font-color: #ffffff;
+    --bg-color: #2C2F33;
+    --heading-color: #818cab;
+    --accent-color: #FF5722;
+    --header-color: #ffff
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: dosisextralight;
+    word-wrap: break-word;
+}
+#navBar {
+    margin-top: -0.5em;
+    border: solid 3px var(--light-primary-color);
+    background: var(--light-primary-color);
+    min-height: 50px;
+    margin-left: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pageList {
+    margin-top: -3px;
+    max-width: 780px;
+    float: left;
+}
+#pageList li {
+    display: inline;
+    list-style: none;
+    font-size: 1.2em;
+    margin: 10px;
+}
+#pageList a {
+    color: white;
+    text-decoration: none;
+}
+#pageList a:hover {
+    transition: 0.2s;
+    color: var(--accent-color);
+}
+#socialMediaList {
+    float: right;
+    margin-top: -9px;
+}
+#socialMediaList li {
+    margin-right: 10px;
+    display: inline;
+    list-style: none;
+}
+#socialMediaList a {
+    color: white;
+    text-decoration: none;
+}
+#socialMediaList a:hover {
+    transition: 0.2s;
+    color: var(--accent-color);
+}
+#socialMediaList i {
+    font-size: 2.5em;
+}
+#themeChanger {
+    float: left;
+    font-size: 1.3em;
+}
+#pageContent {
+    margin-top: 20px;
+    width: 900px;
+    margin-left: 500px;
+}
+#aboutMe img {
+    width: 183px;
+    height: 183px;
+    border-radius: 50%;
+    margin-left: 40.1%;
+}
+#aboutMe p {
+    color: var(--font-color);
+    margin-left: 40%;
+    font-size: 35px;
+    max-width: 183px;
+}
+#aboutMe p:hover {
+    transition: 0.2s;
+    color: white;
+}
+#nick {
+    margin-top: -40px;
+    font-size: 30px;
+    /* color: var(--heading-color); */
+}
+#intro {
+    margin-left: 19%;
+    max-width: 600px;
+}
+#gitProjects {
+    display: inline-block;
+    margin-left: 179px;
+    margin-top: 30px;
+    
+}
+#gitProjects h1 > a {
+    color: var(--header-color);
+    text-decoration: none;
+}
+#gitProjects h1 > a:hover {
+    transition: 0.2s;
+    color: var(--accent-color);
+}
+.project-item a {
+    color: var(--light-primary-color);
+    text-decoration: underline;
+    font-size: 22px;
+}
+.project-item h5 {
+    font-size: 17px;
+}
