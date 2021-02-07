@@ -5,37 +5,38 @@
     font-weight: normal;
     font-style: normal;        
 }
+
 :root {
-    --primary-color: #302AE6;
-    --light-primary-color: #536390;
-    --font-color: #424242;
-    --bg-color: rgb(180, 195, 197);
-    --heading-color: #292922;
-    --accent-color: #FF5722;
-    --header-color: #3B8DA9
+    --background-color: #FFFFFF;
+    --font-color: black;
+    --navbar-background-color: #000000;
+    --navbar-font-color: white;
+    --hover-color: #b42741;
+    --project-name-color: #3E6EA7;
+    --header-color: #6200EE;
 }
-[data-theme="dark"] {
-    --dark-primary-color: #616161;
-    --light-primary-color: #707070;
-    --font-color: #ffffff;
-    --bg-color: #2C2F33;
-    --heading-color: #818cab;
-    --accent-color: #FF5722;
-    --header-color: #ffff
+[data-theme="dark"] {    
+    --background-color: #121212;
+    --font-color: white;
+    --navbar-background-color: #000000;
+    --navbar-font-color: white;
+    --hover-color: #CF6679;
+    --project-name-color: #018786;
+    --header-color: #BB86FC;
 }
 body {
-    background-color: var(--bg-color);
+    background-color: var(--background-color);
     color: var(--font-color);
     font-family: dosisextralight;
     word-wrap: break-word;
 }
 #navBar {
     margin-top: -0.5em;
-    border: solid 3px var(--light-primary-color);
-    background: var(--light-primary-color);
+    border: solid 3px var(--navbar-background-color);
+    background: var(--navbar-background-color);
     min-height: 50px;
     margin-left: -40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 #pageList {
     margin-top: -3px;
@@ -49,12 +50,12 @@ body {
     margin: 10px;
 }
 #pageList a {
-    color: white;
+    color: var(--navbar-font-color);
     text-decoration: none;
 }
 #pageList a:hover {
     transition: 0.2s;
-    color: var(--accent-color);
+    color: var(--hover-color);
 }
 #socialMediaList {
     float: right;
@@ -66,12 +67,12 @@ body {
     list-style: none;
 }
 #socialMediaList a {
-    color: white;
+    color: var(--navbar-font-color);
     text-decoration: none;
 }
 #socialMediaList a:hover {
     transition: 0.2s;
-    color: var(--accent-color);
+    color: var(--hover-color);
 }
 #socialMediaList i {
     font-size: 2.5em;
@@ -99,7 +100,7 @@ body {
 }
 #aboutMe p:hover {
     transition: 0.2s;
-    color: white;
+    color: var(--hover-color);
 }
 #nick {
     margin-top: -40px;
@@ -122,10 +123,10 @@ body {
 }
 #gitProjects h1 > a:hover {
     transition: 0.2s;
-    color: var(--accent-color);
+    color: var(--hover-color);
 }
 .project-item a {
-    color: var(--light-primary-color);
+    color: var(--project-name-color);
     text-decoration: underline;
     font-size: 22px;
 }
