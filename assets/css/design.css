@@ -29,3 +29,6 @@ body {
     transition: 0.2s;
     color: purple;
 }
+#aboutMe p {
+    font-size: 20px;
+}
