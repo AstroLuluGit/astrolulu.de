@@ -32,3 +32,20 @@ body {
 #aboutMe p {
     font-size: 20px;
 }
+
+/* EDDL Notes */
+
+#SIDRes {
+    max-width: 1000px; 
+    max-height: 340px;
+    float: left;
+    margin-right: 10px;
+}
+
+#notes textarea {
+
+}
+
+#sidInfo {
+    margin-top: 50px;
+}
