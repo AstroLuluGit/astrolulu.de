@@ -1,6 +1,6 @@
 body {
     background-color: #2C2F33 !important;
-    color: white;
+    color: white !important;
 }
 #nameAndPic img  {
     width: 10% !important;
@@ -42,10 +42,10 @@ body {
     margin-right: 10px;
 }
 
-#notes textarea {
-
+#sidInfo {
+    width: 250px;
 }
 
-#sidInfo {
-    margin-top: 50px;
+#frequencies {
+    width: 330px;
 }

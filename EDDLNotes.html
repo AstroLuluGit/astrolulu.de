@@ -45,8 +45,9 @@
                 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTMsieP3oqyFKlB11P7g0-VYzIqd-sKoEJaCoSyARA69FeIEOX_mrrTW1YmyuAPNj6fp3NKLmoAr_ub/pubhtml?widget=true&amp;headers=false"></iframe>
             </div>            
 
-            <div class="container" id="quickLinks">
-                <ul style="max-width: 200px; text-align: center; float: left;" class="list-group col-6 col-sm-6">
+            <div id="quickLinks">
+              <div style="display: inline-block; vertical-align: top;" id="linkList">
+                <ul style="max-width: 200px; text-align: center;" class="list-group">
                     <li class="list-group-item"><a target="_blank" href="https://de.wiki.vatsim-germany.org/Flughafen_D%C3%BCsseldorf_SOP">Düsseldorf SOPs</a></li>
                     <li class="list-group-item"><a target="_blank" href="http://vatsim.zeigers.eu/trainingsdokumente/Study_Guide_TWR.pdf">Tower Study Guide</a></li>
                     <li class="list-group-item"><a target="_blank" href="https://de.wiki.vatsim-germany.org/NVFR_Guide">NVFR Guide</a></li>
@@ -54,68 +55,70 @@
                     <li class="list-group-item"><a target="_blank" href="https://de.wiki.vatsim-germany.org/RRS">Reduzierte Pistenstaffelung</a></li>
                     <li class="list-group-item"><a target="_blank" href="http://www.fliegerclub-straubing.com/files/1-1694-19.pdf">Sprechfunkverfahren</a></li>
                 </ul>
-                <div id="notes" class="col-6 col-sm-6">
+
+              </div>
+                <div style="width: 200px; display: inline-block; vertical-align: top;" id="notes">
                     <textArea style="max-width: 200px; min-height: 270px; max-height: 270px;" id="eddlNotes"></textArea>
                </div><br>
             </div>
-        
-            <div id="sidInfo">
-                <h5>SID Information:</h5>
-                <ul>
-                    <u><b>L1: (Nord DEP)</b></u>
-                    <br>
-                    <li>MEVEL <i>23: climb via</i></li>
-                    <li>SONEB <i>climb via</i></li>
-                    <li>MODRU <i>climb via</i></li>
-                    <li>LMA</li>
-                    <li>NETEX</li>
-                </ul>
-                <ul>
-                    <u><b>L2: (Süd DEP)</b></u>
-                    <li>COL <i>climb via</i></li>
-                    <li>KUMIK <i>climb via</i></li>
-                    <li>DODEN <i>climb via</i></li>
-                    <li>NVO</li>
-                    <li>GMH</li>
-                    <li>NUDGO</li>
-                </ul>
+            <div id="sidPicWrapper" style="margin-top: 80px;">
+              <div style='display: inline-block; vertical-align: top;' id="sidInfo">
+                  <h5>SID Information:</h5>
+                  <ul>
+                      <u><b>L1: (Nord DEP)</b></u>
+                      <br>
+                      <li>MEVEL <i>23: climb via</i></li>
+                      <li>SONEB <i>climb via</i></li>
+                      <li>MODRU <i>climb via</i></li>
+                      <li>LMA</li>
+                      <li>NETEX</li>
+                  </ul>
+                  <ul>
+                      <u><b>L2: (Süd DEP)</b></u>
+                      <li>COL <i>climb via</i></li>
+                      <li>KUMIK <i>climb via</i></li>
+                      <li>DODEN <i>climb via</i></li>
+                      <li>NVO</li>
+                      <li>GMH</li>
+                      <li>NUDGO</li>
+                  </ul>
+              </div>
+              <div style='display: inline-block; vertical-align: top;' id="frequencies">
+                  <ul>
+                      <u><b>Wichtige Frequenzen:</b></u>
+                      
+                      <li>Pad High: 135.650</li>
+                      <li>North Approach(Main Approach): 128.550</li>
+                      <li>South Approach: 121.350</li>
+                      <li>Tower: 118.300</li>
+                      <li>West Ground: 121.900</li>
+                      <li>East Ground: 121.600</li>
+                  </ul>
+              </div>
+              <div style='display: inline-block; vertical-align: top;' id="SIDPic">
+                <img style="width: 550px" src="./pictures/EDDLSIDs.png">
+              </div>              
             </div>
-            <div id="frequencies">
-                <ul>
-                    <u><b>Wichtige Frequenzen:</b></u>
-                    
-                    <li>Pad High: 135.650</li>
-                    <li>North Approach(Main Approach): 128.550</li>
-                    <li>South Approach: 121.350</li>
-                    <li>Tower: 118.300</li>
-                    <li>West Ground: 121.900</li>
-                    <li>East Ground: 121.600</li>
-                </ul>
-            </div>
-        </div>
-
-
-        <div id="wrapperRWY">
-            <div id="RWYStack">
-                
-            </div>
-            <div id="RWYStackPic">
-                <img src="./pictures/EDDLSIDs.png">
-            </div>
-            <div id="wakeTurb">
+            <div id="phraseoPatternWrapper">
+              <div style='display: inline-block; vertical-align: top;' id="notHPLandTOClrnc">
+                <h5>Phraseo Beispiele Nicht Zurückhalten einer Start/Landefreigabe</h5>
+                <img style="width: 915px;" src="./pictures/nichtzurückhaltenstartlandefreigabe.png">
+              </div>
+              <div style='display: inline-block; vertical-align: top;' id="Tpatterns">
+                  <h5>Traffic Pattern/Platzrunde</h5>
+                  <img style="width: 550px" src="./pictures/pattern.png">
+              </div>
+            
+            <div style="vertical-align: middle;" id="wakeTurb">
                 <h5>Wirbelschleppen Kategorien:</h4>
                 <img src="./pictures/Wirbelschleppen.png">
             </div>    
-        </div>
 
-        <div id="notHPLandTOClrnc">
-            <h5>Phraseo Beispiele Nicht Zurückhalten einer Start/Landefreigabe</h5>
-            <img style="height: 392px; width: 915px; margin-right: 50px;" src="./pictures/nichtzurückhaltenstartlandefreigabe.png">
-        </div>
-        <div id="Tpatterns">
-            <h5>Traffic Pattern/Platzrunde</h5>
-            <img src="./pictures/pattern.png">
-        </div>
+            </div>
+            
+
+
+          </div> 
+          <script src="./assets/js/notes.js"></script>
     </body>
-    <script src="./assets/js/notes.js"></script>
 </html>
