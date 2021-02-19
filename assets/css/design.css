@@ -49,3 +49,15 @@ body {
 #frequencies {
     width: 330px;
 }
+
+
+/* Snake */
+
+#snakeGame {
+}
+#collisionChecker input {
+    margin-top: 5px;
+}
+#loosedGame {
+    color: red;
+}
