@@ -1,0 +1,26 @@
+body {
+    background-color: #202020 !important;
+    color: white !important;
+    margin-left: 5px !important;
+}
+input {
+    max-width: 100%;
+}
+table {
+    max-width: 100%;
+}
+i {
+    color: red;
+}
+#pageContent span {
+    width: 125px;
+    text-align: center;
+}
+
+#todoTable {
+    margin-top: 18px;
+}
+#languageButtons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
