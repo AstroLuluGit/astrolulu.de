@@ -12,13 +12,14 @@ table {
 i {
     color: red;
 }
-#pageContent {
-    margin-top: 10px;
-}
 
 #pageContent span {
     width: 125px;
     text-align: center;
+}
+
+#todoList {
+    margin-top: 10px;
 }
 
 #todoTable {
