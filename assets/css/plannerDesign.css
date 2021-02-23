@@ -12,6 +12,10 @@ table {
 i {
     color: red;
 }
+#pageContent {
+    margin-top: 10px;
+}
+
 #pageContent span {
     width: 125px;
     text-align: center;
@@ -19,8 +23,4 @@ i {
 
 #todoTable {
     margin-top: 18px;
-}
-#languageButtons {
-    margin-top: 10px;
-    margin-bottom: 10px;
 }

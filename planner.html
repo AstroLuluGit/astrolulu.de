@@ -9,44 +9,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <title>Online School Planner</title>
     </head>
-    <body>
-        
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://astrolulu.de/">AstroLulu</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./planner.html">Online School</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Todo List</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./snake.html" tabindex="-1" aria-disabled="true">Snake</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Expense Calculator</a>
-              </li>
-              <li class="nav-item">
-                <a href="./EDDLNotes.html" class="nav-link" aria-disabled="true">EDDL Notes</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-        
-      <div id="pageContent">
-          <div id="languageButtons">
-            <button class="btn btn-primary" id="langDe" type="button">German</button>
-            <button class="btn btn-primary" id="langEng" type="button">English</button>
-          </div>
+    <body>       
+        <div id="pageContent">
             <div id="todoList">
                 <!-- <select name="subjectList" id="subjectList"></select><br> -->
                 <div class="input-group mb-3">
@@ -74,9 +38,11 @@
                     </tbody>
                 </table>
             </div>
+            <div style="max-width: 545px; margin-left: 5px;" class="alert alert-dark position-fixed bottom-0 start-0" role="alert">
+                The language changer has been removed until further notice.
+            </div>
         </div>
-        <script src="./assets/js/plannerTodo.js"></script>
-        <script type="module" src="./assets/js/plannerLanguageChanger.js"></script>
+        <script src="./assets/js/plannerTodoList.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     </body>
 </html>
