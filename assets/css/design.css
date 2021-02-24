@@ -59,3 +59,25 @@ body {
 #loosedGame {
     color: red;
 }
+
+/* Todo List */
+#todoContainer {
+    margin-top: 100px;
+}
+#todoHead input {
+    width: 800px;
+    font-size: 25px;
+}
+#todoHead i {
+    color: white;
+}
+#todoContent {
+    font-size: 20px;
+}
+#todoContent li {
+    list-style: none;
+}
+#todoContent i {
+    color: red;
+    margin-right: 10px;
+}
